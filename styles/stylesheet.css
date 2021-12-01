@@ -22,6 +22,7 @@ nav {
     float: left;
     width: 100%;
     text-align: center;
+    position: fixed;
 }
 
 nav ul {
@@ -57,4 +58,52 @@ nav ul {
 
 .search-button:hover {
     color: #525252;
+}
+
+
+.topSection{
+    width: 1170px;
+    padding: 180px 40px 100px 40px;
+    background-size: cover;
+    display: flex;
+    margin: 0 auto;
+}
+
+.topText{
+    color: rgba(0, 0, 0, 0.8);
+    text-align: justify;
+    padding: 20px;
+}
+
+.topText h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.topText p{
+    margin-top: 15px;
+}
+
+.topImage img{
+    flex: auto;
+}
+
+.btn-wrapper {
+    margin: 30px auto;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    opacity: 0.7;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.baca {
+    background-color: blue;
 }

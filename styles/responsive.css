@@ -1,0 +1,34 @@
+@media (max-width: 1000px){
+    .topSection{
+        flex-wrap: wrap;
+        width:fit-content;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .topImage{
+        align-items: center;
+    }
+
+    .topText{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .topText h1{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 670px) {
+    .topSection{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .topText{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
